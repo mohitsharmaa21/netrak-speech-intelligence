@@ -1,0 +1,17 @@
+# Netrak Speech Intelligence - Databricks App Configuration
+
+command:
+  - uvicorn
+  - app:app
+  - --host
+  - "0.0.0.0"
+  - --port
+  - "${PORT}"
+
+env:
+  - name: NETRAK_CORS_ORIGINS
+    value: "*"
+  - name: NETRAK_WHISPER_MODEL_NAME
+    value: "base"
+  - name: NETRAK_DEVICE
+    value: "auto"

@@ -1,0 +1,20 @@
+{
+  "payment_methods": [
+    "upi",
+    "bank_transfer",
+    "neft",
+    "rtgs",
+    "imps",
+    "qr_code",
+    "cash",
+    "cryptocurrency",
+    "bitcoin"
+  ],
+  "platforms": [
+    "google pay",
+    "gpay",
+    "phonepe",
+    "paytm",
+    "amazon pay"
+  ]
+}
